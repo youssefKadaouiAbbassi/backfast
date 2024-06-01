@@ -1,0 +1,5 @@
+# Build artifacts
+.next/
+.turbo/
+_next/
+node_modules/
