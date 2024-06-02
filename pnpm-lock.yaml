@@ -80,7 +80,7 @@ importers:
         specifier: ^5.3.3
         version: 5.4.5
 
-  apps/web:
+  apps/studio:
     dependencies:
       '@repo/ui':
         specifier: workspace:*

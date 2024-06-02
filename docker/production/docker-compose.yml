@@ -1,0 +1,7 @@
+services:
+  studio-example:
+    image: youssefkadaouiabbassi/backfast-studio:${STUDIO_TAG}
+    ports:
+      - "4000:3000"
+    environment:
+      NODE_ENV: "production"
