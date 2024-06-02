@@ -18,5 +18,8 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "next-international": "^1.2.4"
   }
 }
