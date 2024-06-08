@@ -3,9 +3,14 @@ FROM node:alpine AS builder
 RUN apk add --no-cache libc6-compat
 RUN apk update
 
+
 WORKDIR /app
 RUN yarn global add turbo
 COPY . .
+
+ENV TURBO_TELEMETRY_DISABLED=1
+ENV DO_NOT_TRACK=1
+
 RUN turbo prune --scope=studio --docker
 
 # Installer

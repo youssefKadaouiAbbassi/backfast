@@ -6,7 +6,8 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clean": "pnpm exec rm -rf node_modules & pnpm -r exec rm -rf node_modules"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
@@ -19,6 +20,7 @@
   "engines": {
     "node": ">=20"
   },
+  "packageManager": "pnpm@9.2.0",
   "dependencies": {
     "next-international": "^1.2.4"
   }
