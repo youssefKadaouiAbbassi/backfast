@@ -1,5 +1,5 @@
 services:
-  studio-example:
+  studio-prod:
     image: youssefkadaouiabbassi/backfast-studio:${STUDIO_TAG}
     ports:
       - "4000:3000"
