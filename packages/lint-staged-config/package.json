@@ -1,0 +1,14 @@
+{
+  "name": "@repo/lint-staged-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "base.js",
+    "next.js",
+    "nest.js"
+  ],
+  "devDependencies": {
+    "sort-package-json": "^2.10.0",
+    "typescript": "^5.4.5"
+  }
+}

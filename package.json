@@ -13,6 +13,7 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/prettier-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@repo/lint-staged-config": "workspace:*",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "turbo": "latest"
