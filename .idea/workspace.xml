@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/.lintstagedrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint-staged-config/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint-staged-config/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint-staged-config/nest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint-staged-config/next.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint-staged-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/.prettierrc" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/.lintstagedrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/.lintstagedrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/studio/.lintstagedrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/studio/.lintstagedrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/studio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/studio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/.husky/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,19 +40,23 @@
     "javascript.nodejs.core.library.configured.version": "20.14.0",
     "javascript.nodejs.core.library.typings.version": "20.14.2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/izno/dev/perso/projects/Backfast/backfast/apps/studio",
+    "last_opened_file_path": "/home/izno/dev/perso/projects/Backfast/backfast",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "/home/izno/.nvm/versions/node/v20.14.0/bin/node",
     "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "configurable.tailwindcss",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/home/izno/dev/perso/projects/Backfast/backfast/apps/docs/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/apps/studio" />
       <recent name="$PROJECT_DIR$/packages" />
       <recent name="$PROJECT_DIR$/apps/api" />
