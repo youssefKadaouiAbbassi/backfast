@@ -7,13 +7,20 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky",
-    "clean": "pnpm exec rm -rf node_modules & pnpm -r exec rm -rf node_modules"
+    "clean": "pnpm exec rm -rf node_modules & pnpm -r exec rm -rf node_modules",
+    "docker:dev": "dotenv -c development -- sh -c ' cross-env PROJECT_NAME=$PROJECT_NAME && echo $PROJECT_NAME && docker compose -p $PROJECT_NAME -f docker/development/docker-compose.yml up --build'",
+    "docker:up": "dotenv -c production -- sh -c ' cross-env PROJECT_NAME=$PROJECT_NAME && echo $PROJECT_NAME && docker compose -p $PROJECT_NAME -f docker/production/docker-compose.yml up --build'",
+    "docker:down": "dotenv -e .env -c -- sh -c ' cross-env PROJECT_NAME=$PROJECT_NAME && echo $PROJECT_NAME && docker compose -p $PROJECT_NAME -f docker/development/docker-compose.yml down --remove-orphans'",
+    "docker:remove": "dotenv -e .env -c -- sh -c ' cross-env PROJECT_NAME=$PROJECT_NAME && echo $PROJECT_NAME && docker compose -p $PROJECT_NAME -f docker/development/docker-compose.yml down rm -vfs'"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
+    "@repo/lint-staged-config": "workspace:*",
     "@repo/prettier-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@repo/lint-staged-config": "workspace:*",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.4.2",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "turbo": "latest"

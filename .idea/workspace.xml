@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env-example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env-example" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,9 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/apps/studio" />
       <recent name="$PROJECT_DIR$/packages" />
+      <recent name="$PROJECT_DIR$/apps/api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps/api" />
     </key>
   </component>
