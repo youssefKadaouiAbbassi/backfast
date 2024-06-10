@@ -5,3 +5,35 @@ services:
       dockerfile: ./apps/studio/Dockerfile
     ports:
       - "3000:3000"
+    networks:
+      - app_network
+
+  api:
+    depends_on:
+      - database
+    build:
+      context: ../..
+      dockerfile: ./apps/api/Dockerfile
+    environment:
+      - DATABASE_URI=mongodb://database:27017
+      - NODE_ENV=development
+    ports:
+      - "9000:9000"
+    networks:
+      - app_network
+
+  database:
+    image: mongo:latest
+    networks:
+      - app_network
+    volumes:
+      - database:/data/db
+    ports:
+      - "27017:27017"
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  database:
