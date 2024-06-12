@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="" />
+    <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/backfast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backfast.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +38,7 @@
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.14.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.2&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/izno/dev/perso/projects/Backfast/backfast&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/izno/dev/work/acqua/acqua-landing&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -47,10 +54,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/api" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/apps/studio" />
       <recent name="$PROJECT_DIR$/packages" />
-      <recent name="$PROJECT_DIR$/apps/api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps/api" />
@@ -74,6 +81,8 @@
       <updated>1717890160962</updated>
       <workItem from="1717890163112" duration="1338000" />
       <workItem from="1717968195646" duration="6000" />
+      <workItem from="1718021215895" duration="13319000" />
+      <workItem from="1718229980420" duration="5466000" />
     </task>
     <servers />
   </component>

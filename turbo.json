@@ -1,8 +1,10 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": [
+    ".env",
     "**/.env.*local"
   ],
+  "globalPassThroughEnv": ["PROJECT_NAME"],
   "tasks": {
     "build": {
       "dependsOn": [
