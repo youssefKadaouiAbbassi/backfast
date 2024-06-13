@@ -17,19 +17,20 @@ services:
     environment:
       - DATABASE_URI=mongodb://database:27017
       - NODE_ENV=development
+    env_file:
+      - ../../.env
     ports:
       - "9000:9000"
     networks:
       - app_network
 
   database:
-    image: mongo:latest
+    extends:
+      file: docker-compose.db.yml
+      service: database
     networks:
       - app_network
-    volumes:
-      - database:/data/db
-    ports:
-      - "27017:27017"
+
 
 networks:
   app_network:

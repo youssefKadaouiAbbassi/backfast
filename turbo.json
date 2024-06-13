@@ -4,12 +4,13 @@
     ".env",
     "**/.env.*local"
   ],
-  "globalPassThroughEnv": ["PROJECT_NAME"],
+  "globalEnv": ["NODE_ENV", "PROJECT_NAME"],
   "tasks": {
     "build": {
       "dependsOn": [
         "^build"
       ],
+      "inputs": [".env"],
       "outputs": [
         ".next/**",
         "!.next/cache/**"
