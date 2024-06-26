@@ -33,6 +33,9 @@ COPY turbo.json turbo.json
 ARG NODE_ENV
 ENV NODE_ENV=$NODE_ENV
 
+ARG PORT
+ENV PORT=$PORT
+
 # Uncomment and use build args to enable remote caching
 # ARG TURBO_TEAM
 # ENV TURBO_TEAM=$TURBO_TEAM

@@ -66,7 +66,9 @@ jobs:
         with:
           context: .
           file: apps/studio/Dockerfile
-          build-args: NODE_ENV=production
+          build_args: |
+              NODE_ENV=production
+              PORT=4000
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
