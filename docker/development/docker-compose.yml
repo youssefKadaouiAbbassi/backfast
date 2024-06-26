@@ -28,7 +28,7 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - ${WATCHED_FOLDER}/nest-project:/usr/src/app/watched_folder
+      - ${WATCHED_FOLDER}:/usr/src/app/watched_folder
     networks:
       - app_network
 

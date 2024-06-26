@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/publish_api_image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish_api_image.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/publish_studio_image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish_studio_image.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/studio/.env-example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/studio/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/studio/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/studio/src/utils/socket/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/studio/src/utils/socket/client.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +102,7 @@
       <workItem from="1719401656497" duration="33000" />
       <workItem from="1719407252872" duration="5936000" />
       <workItem from="1719417651079" duration="5721000" />
-      <workItem from="1719423433079" duration="2998000" />
+      <workItem from="1719423433079" duration="6286000" />
     </task>
     <servers />
   </component>
