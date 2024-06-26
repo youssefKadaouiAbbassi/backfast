@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/src/utils/constants/database.constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.gateway.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/src/utils/adapters/redisIo.adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/src/utils/classes/websocket.classes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/studio/.env-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/studio/src/components/test/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/studio/src/utils/socket/client.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/api/.env-example" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/.env-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/studio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/studio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/studio/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/studio/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/development/docker-compose.db.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/development/docker-compose.db.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/development/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/development/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +57,7 @@
     "javascript.nodejs.core.library.configured.version": "20.14.0",
     "javascript.nodejs.core.library.typings.version": "20.14.9",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/izno/izno/perso/projects/BackFast/backfast/apps/api",
+    "last_opened_file_path": "/home/izno/izno/perso/projects/BackFast/backfast/apps/studio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,13 +73,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/studio" />
       <recent name="$PROJECT_DIR$/apps/api" />
       <recent name="$PROJECT_DIR$/docker/development" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/apps/studio" />
       <recent name="$PROJECT_DIR$/packages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/api/src/utils/classes" />
+      <recent name="$PROJECT_DIR$/apps/api/src/modules/websocket" />
+      <recent name="$PROJECT_DIR$/apps/api/src/utils/adapters" />
       <recent name="$PROJECT_DIR$/apps/api" />
     </key>
   </component>
@@ -97,7 +106,7 @@
       <workItem from="1717968195646" duration="6000" />
       <workItem from="1718021215895" duration="13319000" />
       <workItem from="1718229980420" duration="8825000" />
-      <workItem from="1719358550404" duration="2239000" />
+      <workItem from="1719358550404" duration="8724000" />
     </task>
     <servers />
   </component>
