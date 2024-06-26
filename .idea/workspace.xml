@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/src/modules/fileWatcher/fileWatcher.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/src/utils/constants/database.constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/.env-example" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/.env-example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,7 +51,7 @@
     "javascript.nodejs.core.library.configured.version": "20.14.0",
     "javascript.nodejs.core.library.typings.version": "20.14.9",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/izno/izno/perso/projects/BackFast/backfast",
+    "last_opened_file_path": "/home/izno/izno/perso/projects/BackFast/backfast/apps/api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -43,14 +61,14 @@
     "nodejs_interpreter_path": "/home/izno/.nvm/versions/node/v20.14.0/bin/node",
     "nodejs_package_manager_path": "pnpm",
     "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/home/izno/izno/perso/projects/BackFast/backfast/apps/api/node_modules/typescript/lib",
+    "ts.external.directory.path": "/home/izno/izno/perso/projects/BackFast/backfast/packages/tailwind-config/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docker/development" />
       <recent name="$PROJECT_DIR$/apps/api" />
+      <recent name="$PROJECT_DIR$/docker/development" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/apps/studio" />
       <recent name="$PROJECT_DIR$/packages" />
@@ -79,7 +97,7 @@
       <workItem from="1717968195646" duration="6000" />
       <workItem from="1718021215895" duration="13319000" />
       <workItem from="1718229980420" duration="8825000" />
-      <workItem from="1719358550404" duration="430000" />
+      <workItem from="1719358550404" duration="2239000" />
     </task>
     <servers />
   </component>
