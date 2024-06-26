@@ -8,6 +8,7 @@ import {
   DATABASE_NAME,
   DATABASE_URI,
 } from './utils/constants/database.constants';
+import { RedisModule } from './modules/redis/redis.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import {
       }),
       inject: [ConfigService],
     }),
+    RedisModule,
     FileWatcherModule,
   ],
   controllers: [AppController],
