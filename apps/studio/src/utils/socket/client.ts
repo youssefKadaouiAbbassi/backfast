@@ -4,9 +4,9 @@ import { io } from 'socket.io-client';
 
 export const useSocket = () => {
   console.log('useSocket', {
-    NEXT_PUBLIC_SOCKET_SERVER_URL: process.env.NEXT_PUBLIC_SOCKET_SERVER_URL,
+    NEXT_PUBLIC_SOCKET_SERVER_URL: `http://localhost:${process.env.NODE_ENV === 'development' ? 9000 : 9001}`,
   });
   return io(
-    process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || 'http://localhost:9000',
+    `http://localhost:${process.env.NODE_ENV === 'development' ? 9000 : 9001}`,
   );
 };

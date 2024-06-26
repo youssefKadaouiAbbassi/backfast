@@ -1,9 +1,6 @@
 services:
   studio-prod:
     image: youssefkadaouiabbassi/backfast-studio:${STUDIO_TAG}
-    environment:
-      NODE_ENV: "production"
-      NEXT_PUBLIC_SOCKET_SERVER_URL: "http://api:9001"
     ports:
       - "4000:3000"
     networks:
@@ -19,7 +16,6 @@ services:
       DATABASE_NAME: "backfast"
       DATABASE_URI: "mongodb://database:27017"
       REDIS_URI: "redis://redis:6379"
-      NODE_ENV: "development"
       WATCHED_FOLDER: "/usr/src/app/watched_folder"
     env_file:
       - ../../.env
