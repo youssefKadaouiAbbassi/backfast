@@ -1,4 +1,4 @@
-name: Publish to Image Registry
+name: Publish to Studio Image Registry
 
 on:
   push:
