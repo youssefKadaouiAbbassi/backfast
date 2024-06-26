@@ -4,7 +4,7 @@ services:
       context: ../..
       dockerfile: ./apps/studio/Dockerfile
     environment:
-      - SOCKET_SERVER_URL=http://api:9000
+      SOCKET_SERVER_URL: "http://api:9000"
     ports:
       - "3000:3000"
     networks:
@@ -18,10 +18,10 @@ services:
       context: ../..
       dockerfile: ./apps/api/Dockerfile
     environment:
-      - DATABASE_URI=mongodb://database:27017
-      - REDIS_URI=redis://redis:6379
-      - NODE_ENV=development
-      - WATCHED_FOLDER=/usr/src/app/watched_folder
+      DATABASE_URI: "mongodb://database:27017"
+      REDIS_URI: "redis://redis:6379"
+      NODE_ENV: "development"
+      WATCHED_FOLDER: "/usr/src/app/watched_folder"
     env_file:
       - ../../.env
       - ../../.env.local
@@ -34,13 +34,14 @@ services:
 
   database:
     extends:
-      file: docker-compose.db.yml
+      file: ../shared/docker-compose.db.yml
       service: database
     networks:
       - app_network
+
   redis:
     extends:
-      file: docker-compose.db.yml
+      file: ../shared/docker-compose.db.yml
       service: redis
     networks:
       - app_network
