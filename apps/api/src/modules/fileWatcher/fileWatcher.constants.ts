@@ -1,0 +1,1 @@
+export const WATCHED_FOLDER = 'WATCHED_FOLDER';

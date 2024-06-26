@@ -9,6 +9,6 @@
     "allowJs": true,
     "jsx": "preserve",
     "noEmit": true,
-    "declaration": false,
+    "declaration": false
   }
 }

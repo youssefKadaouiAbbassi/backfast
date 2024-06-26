@@ -6,10 +6,7 @@ node_modules
 .pnp.js
 
 # Local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+**/.env.*local
 
 # Testing
 coverage
@@ -35,3 +32,6 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Generated test files
+/.testdir/

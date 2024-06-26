@@ -1,4 +1,5 @@
 const path = require('path')
+const base = require('@repo/lint-staged-config/base.js')
 
 const buildEslintCommand = (filenames) =>
     `next lint --fix --file ${filenames
@@ -7,4 +8,5 @@ const buildEslintCommand = (filenames) =>
 
 module.exports = {
     '*.{js,jsx,ts,tsx}': [buildEslintCommand],
+    ...base
 }

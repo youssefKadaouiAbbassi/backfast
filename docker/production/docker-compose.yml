@@ -5,3 +5,4 @@ services:
       - "4000:3000"
     environment:
       NODE_ENV: "production"
+# TODO: add the api and db services
