@@ -24,11 +24,11 @@ services:
       - WATCHED_FOLDER=/usr/src/app/watched_folder
     env_file:
       - ../../.env
+      - ../../.env.local
     ports:
       - "9000:9000"
     volumes:
-      # TODO: change the path to the watched folder
-      - /home/izno/izno/perso/projects/BackFast/backfast/.test:/usr/src/app/watched_folder
+      - ${WATCHED_FOLDER}/nest-project:/usr/src/app/watched_folder
     networks:
       - app_network
 

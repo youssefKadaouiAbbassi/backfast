@@ -34,4 +34,4 @@ yarn-error.log*
 *.pem
 
 # Generated test files
-/.test/
+/.testdir/
