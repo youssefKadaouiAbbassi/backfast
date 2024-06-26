@@ -1,9 +1,10 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { socket } from '@/utils/socket/client';
+import { useSocket } from '@/utils/socket/client';
 
 export default function Test() {
+  const socket = useSocket();
   const [isConnected, setIsConnected] = useState(false);
   const [transport, setTransport] = useState('N/A');
   const [watchedFolder, setWatchedFolder] = useState('');
