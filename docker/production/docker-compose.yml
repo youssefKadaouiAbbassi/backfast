@@ -1,8 +1,55 @@
 services:
   studio-prod:
     image: youssefkadaouiabbassi/backfast-studio:${STUDIO_TAG}
-    ports:
-      - "4000:3000"
     environment:
       NODE_ENV: "production"
-# TODO: add the api and db services
+      NEXT_PUBLIC_SOCKET_SERVER_URL: "http://api:9001"
+    ports:
+      - "4000:3000"
+    networks:
+      - app_network
+
+  api-prod:
+    depends_on:
+      - database
+      - redis
+    image: youssefkadaouiabbassi/backfast-api:${API_TAG}
+    environment:
+      API_PORT: 9001
+      DATABASE_NAME: "backfast"
+      DATABASE_URI: "mongodb://database:27017"
+      REDIS_URI: "redis://redis:6379"
+      NODE_ENV: "development"
+      WATCHED_FOLDER: "/usr/src/app/watched_folder"
+    env_file:
+      - ../../.env
+      - ../../.env.local
+    ports:
+      - "9001:9001"
+    volumes:
+      - ${WATCHED_FOLDER}/nest-project:/usr/src/app/watched_folder
+    networks:
+      - app_network
+
+  database:
+    extends:
+      file: ../shared/docker-compose.db.yml
+      service: database
+    networks:
+      - app_network
+
+  redis:
+    extends:
+      file: ../shared/docker-compose.db.yml
+      service: redis
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  database:
+  redis:
+    driver: local

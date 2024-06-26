@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e851f28-fdfe-41ac-a0b2-a089dcdaadea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/publish_image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish_studio_image.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/production/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/production/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "youssef/api",
+    "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.14.0",
     "javascript.nodejs.core.library.typings.version": "20.14.9",
     "kotlin-language-version-configured": "true",
@@ -101,7 +102,7 @@
       <workItem from="1719367407415" duration="1049000" />
       <workItem from="1719401656497" duration="33000" />
       <workItem from="1719407252872" duration="5936000" />
-      <workItem from="1719417651079" duration="4393000" />
+      <workItem from="1719417651079" duration="5469000" />
     </task>
     <servers />
   </component>
