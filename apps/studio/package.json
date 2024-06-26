@@ -6,7 +6,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "lint-staged",
-    "start": "next start"
+    "start": "next start -p 4000"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
